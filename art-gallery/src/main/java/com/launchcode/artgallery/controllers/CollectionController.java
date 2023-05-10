@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 public class CollectionController {
 
     // TODO: Convert this to use a template, collection.html
-    // TODO: Pass st, artCollection, to template
+    // TODO: Pass list, artCollection, to template
     // Corresponds to http://localhost:8080/collection
     @GetMapping("")
     public String displayCollectionPage() {
